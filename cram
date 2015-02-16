@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style>
+      .cram-display select {
+        position:relative;
+      }
+      
+      
+      .cram-display select[value=1] ~ div > .1{
+        display:none;
+      }
+      
+      .cram-layer {
+        width:256px;
+        height:512px;
+        position:absolute;
+      }
+      
+      .cram-layer img {
+        width:256px;
+        height:512px;
+        position:absolute;
+      }
+    </style>
+  </head>
+  <body>
+  <div class='cram-display'>
+    <select>
+      <option value="1">1</option>
+    </select> 
+    <div class='cram-layer cram-body'>
+      <img src='img/body/1.svg' />
+    </div>
+    <select>
+      <option value="1">1</option>
+    </select> 
+    <div class='cram-layer cram-head'>
+      <img src='img/head/1.svg' />
+    </div>
+    <select>
+      <option value="1">1</option>
+      <option value="2">2</option>
+    </select> 
+    <div class='cram-layer cram-hear'>
+      <img class='1' src='img/hear/1.svg' />
+      <img class='2' src='img/hear/2.svg' />
+    </div>
+  </div>
+  
+  
+  </body>
+</html>
